@@ -1,9 +1,7 @@
-##  Git docs
-
-### Annotations:
+##  Gitdocs
 
 ----------------------------------------------------------------
- * Branch:
+### Branch
 > **git branch new-branch**: cria com o nome new branch
 
 >**git checkout -b new-branch**: Criar e mudar o código para o branch 
@@ -36,7 +34,7 @@ remoto para edição
 > **git merge new-branch:** Realize o merge entre os branchs, ou seja
 juntar o ramo na árvore principal
 -----------------------------------------------------------
-* Arquivos:
+### Arquivos
 
 > **git add . :** adiciona todos os arquivos ou diretorios modificados
 
@@ -60,7 +58,7 @@ que está no .gitignore
 > **git commit meuarquivo.txt -m "minha mensagem de commit":** Commitar
 informando  mensagem
 -------------------------------------------------------------
-* Mudanças 
+### Mudanças 
 
 > **gitk** : Mostra as modificações totais do projeto
 
@@ -72,7 +70,7 @@ informando  mensagem
  > **git rebase -i HEAD-3:** Alterar últimos commits, modificando 
  mensagens 
  --------------------------------------------------------------
-* Log
+### Log
 
 > **git log** : Exibe o histórico dos últimos commits.
 
@@ -90,7 +88,7 @@ de modificações de um arquivo
 > **git log --author-usuario**: Exibir histórico de um determinado autor.
 
 ----------------------------------------------------------------
-*  Cherry-Pic 
+###  Cherry-Pick
 
 > **git cherry-pick <commit-id>** Copias as informações desse commit.
 
@@ -101,7 +99,7 @@ o commit A e o commit B, inclusive A e B.
 A e o commit B, excluindo.
 
 --------------------------------------------------------------
-* Stash 
+### Stash 
 
 > **git stash** : Cria um stash, salva temporiariamtente as 
 modificações.
