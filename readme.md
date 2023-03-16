@@ -47,9 +47,8 @@ meu_diretorio
 > **git add -f meu_programa_gitignore.py :** Adiciona um arquivo
 que está no .gitignore
 
-> **git rm meu-arquivo.txt** : Remover arquivo
-
-> **git rm -r diretorio** : Remover diretório
+> **git rm meu-arquivo.txt** :git rm é um comando que opera em duas das árvores de 
+gerenciamento de estado interno do Git primário: o diretório de trabalho e o índice de staging. O git rm é usado para remover um arquivo de um repositório do git.
 
 > **git commit meu_programa.py** : Comitar um arquivo
 
@@ -64,9 +63,12 @@ informando  mensagem
 
  > **git diff** : Modificações antes de enviar as modificações 
  para o repositório remoto (commit).
+ 
  > **git status** : Estados dos arquivos/ diretorio
+ 
  > **git commit --amend -m "Minha nova mensagem"**: Alterando mensagens
  de commit já realizado
+ 
  > **git rebase -i HEAD-3:** Alterar últimos commits, modificando 
  mensagens 
  --------------------------------------------------------------
